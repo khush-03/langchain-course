@@ -1,4 +1,3 @@
-from psutil import sensors_temperatures
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
@@ -10,7 +9,7 @@ def main():
     print("Hello from langchain-course!")
 
     information="""
-   hi i am elon baba
+   hi i am khush jay brahmbhatt
     """
     summary_template="""
     given the information {information} about a person i want you to create:
